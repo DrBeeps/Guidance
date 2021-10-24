@@ -340,9 +340,9 @@ class TVC:
     '''
                                        TVC: 1-Axis thrust vector control object, acts on the body frame of a body, radians
 
-        :Max: Maximum angle for the TVC, a maximum angle means a maximum TVC deflection of +Max to -Max, so the range of actuation is 2 * Max
-        :Offset: Offset for the TVC, simulating misalignment, TVC angle might be zero but the offset will be accounted for in the torque calculations
-        :Lever: Lever arm the torque will be applied from, also known as the distance from the center of mass to the actuation point of the TVC
+        :Max: Maximum angle for the TVC, a maximum angle means a maximum TVC deflectro but the offset will be accounted for in the torque calculations
+        :Lever: Lever arm the torque will be applied from, also known as the distanion of +Max to -Max, so the range of actuation is 2 * Max
+        :Offset: Offset for the TVC, simulating misalignment, TVC angle might be zece from the center of mass to the actuation point of the TVC
         :AngleSpeed: Maximum speed the TVC can actuate its angle by, if it is 1rad/s, means that the TVC will only be able to change its angle by 1 rad every second
 
         :Angle: Angle of the TVC, radians

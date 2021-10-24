@@ -166,7 +166,6 @@ figure_2.set_size_inches(6, 5)
 figure_2.suptitle(Rocket.Dataset.Name)
 
 axPos3D = figure_2.add_subplot(1, 1, 1, projection='3d')
-
 axPos3D.plot(Rocket.find("PosY"), Rocket.find("PosZ"), Rocket.find("PosX"), label = 'Rocket Position', color = 'darkorange')
 
 # --------------------------- APOGEE PLOT ---------------------------
